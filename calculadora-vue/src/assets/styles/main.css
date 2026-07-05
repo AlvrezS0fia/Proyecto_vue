@@ -1,0 +1,96 @@
+/* ===== RESET Y VARIABLES GLOBALES ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --violet-50: #f5f0ff;
+  --violet-100: #ede4ff;
+  --violet-200: #dcc8f8;
+  --violet-300: #c8b0f0;
+  --violet-400: #b094e8;
+  --violet-500: #9a78e0;
+  --violet-600: #7c3aed;
+  --violet-700: #6d28d9;
+  --violet-800: #5b21b6;
+  --violet-900: #4c1d95;
+  --violet-950: #2e1065;
+
+  --success: #22c55e;
+  --danger: #ef4444;
+  --warning: #f59e0b;
+  --info: #3b82f6;
+
+  --bg-primary: #f5f0ff;
+  --bg-secondary: #ffffff;
+  --bg-card: #ffffff;
+  --bg-input: #f8f5ff;
+  --text-primary: #1a1a2e;
+  --text-secondary: #4c1d95;
+  --text-muted: #8b7aaa;
+  --border-color: #ede4ff;
+  --shadow-color: rgba(124, 58, 237, 0.15);
+
+  --radius: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --shadow-sm: 0 2px 8px rgba(124, 58, 237, 0.08);
+  --shadow-md: 0 8px 32px rgba(124, 58, 237, 0.15);
+  --shadow-lg: 0 16px 48px rgba(124, 58, 237, 0.2);
+  --shadow-xl: 0 24px 64px rgba(124, 58, 237, 0.25);
+
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f5f0ff 0%, #ede4ff 50%, #dcc8f8 100%);
+  min-height: 100vh;
+  padding: 20px;
+  color: var(--text-primary);
+  transition: var(--transition-slow);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--violet-100);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--violet-400);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--violet-600);
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease-out;
+}

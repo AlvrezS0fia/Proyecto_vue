@@ -1,0 +1,79 @@
+/* ===== TEMA OSCURO ===== */
+body.tema-oscuro {
+  --bg-primary: #0d0618;
+  --bg-secondary: #1a0a2e;
+  --bg-card: #1f1038;
+  --bg-input: #2a1a42;
+  --text-primary: #f0edf5;
+  --text-secondary: #c8b0f0;
+  --text-muted: #8b7aaa;
+  --border-color: #2a1a42;
+  --shadow-color: rgba(0, 0, 0, 0.4);
+}
+
+body.tema-oscuro {
+  background: linear-gradient(135deg, #0d0618 0%, #1a0a2e 50%, #0d0618 100%);
+}
+
+body.tema-oscuro .calculadora,
+body.tema-oscuro .historial-panel {
+  background: var(--bg-card);
+  border: 1px solid rgba(124, 58, 237, 0.2);
+}
+
+body.tema-oscuro .pantalla {
+  background: var(--bg-input);
+  border-color: var(--border-color);
+}
+
+body.tema-oscuro .pantalla .operacion {
+  color: var(--text-muted);
+}
+
+body.tema-oscuro .pantalla .resultado {
+  color: var(--text-primary);
+}
+
+body.tema-oscuro .btn-numero,
+body.tema-oscuro .btn-cero,
+body.tema-oscuro .btn-punto {
+  background: var(--bg-input);
+  color: var(--text-primary);
+}
+
+body.tema-oscuro .btn-numero:hover,
+body.tema-oscuro .btn-cero:hover,
+body.tema-oscuro .btn-punto:hover {
+  background: var(--violet-800);
+  color: white;
+}
+
+body.tema-oscuro .item-historial {
+  background: var(--bg-input);
+  color: var(--text-primary);
+  border-left-color: var(--violet-600);
+}
+
+body.tema-oscuro .item-historial:hover {
+  background: var(--violet-900);
+}
+
+body.tema-oscuro .btn-limpiar-historial {
+  background: var(--danger);
+}
+
+body.tema-oscuro .btn-limpiar-historial:hover {
+  background: #dc2626;
+}
+
+body.tema-oscuro .historial-vacio .icon-empty {
+  stroke: var(--violet-700);
+}
+
+body.tema-oscuro .historial-vacio p {
+  color: var(--text-secondary);
+}
+
+body.tema-oscuro .historial-vacio span {
+  color: var(--text-muted);
+}

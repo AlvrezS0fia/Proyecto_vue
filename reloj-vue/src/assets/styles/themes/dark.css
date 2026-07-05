@@ -1,0 +1,96 @@
+/* Tema oscuro */
+body.tema-oscuro {
+  background: linear-gradient(135deg, #0d0618 0%, #1a0a2e 50%, #0d0618 100%);
+  color: #e0d0f0;
+}
+
+body.tema-oscuro .reloj-container {
+  background: linear-gradient(145deg, #1a0a2e, #120820);
+  border: 1px solid rgba(139, 92, 246, 0.15);
+  box-shadow: var(--shadow-dark);
+}
+
+body.tema-oscuro .reloj {
+  background: linear-gradient(145deg, #1f0f38, #150a28);
+}
+
+body.tema-oscuro .btn-control,
+body.tema-oscuro .btn-tema {
+  background: rgba(139, 92, 246, 0.12);
+  color: #e0d0f0;
+  border-color: rgba(139, 92, 246, 0.25);
+}
+
+body.tema-oscuro .btn-control:hover,
+body.tema-oscuro .btn-tema:hover {
+  background: rgba(139, 92, 246, 0.25);
+}
+
+body.tema-oscuro .btn-control.activo {
+  background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+  color: #fff;
+  border-color: transparent;
+}
+
+body.tema-oscuro .stat-item {
+  background: rgba(139, 92, 246, 0.08);
+  border: 1px solid rgba(139, 92, 246, 0.1);
+}
+
+body.tema-oscuro .input-alarma {
+  background: rgba(139, 92, 246, 0.1);
+  color: #e0d0f0;
+  border-color: rgba(139, 92, 246, 0.2);
+}
+
+body.tema-oscuro .fecha {
+  color: #9a8aaa;
+}
+
+body.tema-oscuro .alarma h4,
+body.tema-oscuro .estadisticas h4 {
+  color: #b8a0d0;
+}
+
+body.tema-oscuro .stat-label {
+  color: #7a6a8a;
+}
+
+body.tema-oscuro .stat-valor {
+  color: #c8b0e8;
+}
+
+body.tema-oscuro .alarma-info {
+  color: #8a7a9a;
+}
+
+body.tema-oscuro .footer p {
+  color: #8a7a9a;
+}
+
+body.tema-oscuro .alarma-modal {
+  background: linear-gradient(145deg, #1a0a2e, #2d1b4e);
+}
+
+body.tema-oscuro .alarma-modal p {
+  color: #b8a0d0;
+}
+
+body.tema-oscuro .header .subtitulo {
+  color: #8a7a9a;
+}
+
+body.tema-oscuro .icon {
+  stroke: #c8b0e8;
+}
+
+body.tema-oscuro .selector-sonido {
+  background: rgba(139, 92, 246, 0.08);
+  border: 1px solid rgba(139, 92, 246, 0.15);
+}
+
+body.tema-oscuro .select-sonido {
+  background: #1a0a2e;
+  color: #e0d0f0;
+  border-color: rgba(139, 92, 246, 0.2);
+}

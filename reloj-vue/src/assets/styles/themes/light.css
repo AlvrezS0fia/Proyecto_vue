@@ -1,0 +1,95 @@
+/* Tema claro */
+body {
+  background: linear-gradient(135deg, #f0e8ff 0%, #dcc8f0 50%, #f0e8ff 100%);
+  color: #3d2a5a;
+}
+
+body .reloj-container {
+  background: linear-gradient(145deg, #ffffff, #f5f0ff);
+  border: 1px solid rgba(139, 92, 246, 0.1);
+  box-shadow: var(--shadow);
+}
+
+body .reloj {
+  background: linear-gradient(145deg, #f8f4ff, #ede8f8);
+}
+
+body .btn-control,
+body .btn-tema {
+  background: rgba(139, 92, 246, 0.08);
+  color: #3d2a5a;
+  border-color: rgba(139, 92, 246, 0.15);
+}
+
+body .btn-control:hover,
+body .btn-tema:hover {
+  background: rgba(139, 92, 246, 0.18);
+}
+
+body .btn-control.activo {
+  background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+  color: #fff;
+  border-color: transparent;
+}
+
+body .stat-item {
+  background: rgba(139, 92, 246, 0.06);
+  border: 1px solid rgba(139, 92, 246, 0.08);
+}
+
+body .input-alarma {
+  background: rgba(139, 92, 246, 0.05);
+  color: #2d1a4a;
+  border-color: rgba(139, 92, 246, 0.15);
+}
+
+body .fecha {
+  color: #6a5a7a;
+}
+
+body .alarma h4,
+body .estadisticas h4 {
+  color: #4d3a6a;
+}
+
+body .stat-label {
+  color: #8a7a9a;
+}
+
+body .stat-valor {
+  color: #3d2a5a;
+}
+
+body .alarma-info {
+  color: #6a5a7a;
+}
+
+body .footer p {
+  color: #6a5a7a;
+}
+
+body .alarma-modal {
+  background: white;
+}
+
+body .alarma-modal p {
+  color: #4d3a6a;
+}
+
+body .header .subtitulo {
+  color: #8a7a9a;
+}
+
+body .icon {
+  stroke: #3d2a5a;
+}
+
+body .selector-sonido {
+  background: rgba(139, 92, 246, 0.05);
+  border: 1px solid rgba(139, 92, 246, 0.1);
+}
+
+body .select-sonido {
+  background: white;
+  color: #3d2a5a;
+}

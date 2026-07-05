@@ -1,0 +1,85 @@
+/* ===== TEMA OSCURO ===== */
+body.tema-oscuro {
+  --bg-primary: #0d0618;
+  --bg-secondary: #1a0a2e;
+  --bg-card: #1a0a2e;
+  --bg-input: #2a1a42;
+  --text-primary: #f0edf5;
+  --text-secondary: #c8b0f0;
+  --text-muted: #8b7aaa;
+  --border-color: #2a1a42;
+  --shadow-color: rgba(0, 0, 0, 0.4);
+}
+
+body.tema-oscuro {
+  background: linear-gradient(135deg, #0d0618 0%, #1a0a2e 50%, #0d0618 100%);
+}
+
+body.tema-oscuro .flip-front,
+body.tema-oscuro .flip-back {
+  background: var(--bg-card);
+  border: 1px solid rgba(124, 58, 237, 0.15);
+}
+
+body.tema-oscuro .input-cantidad,
+body.tema-oscuro .select-moneda {
+  background: var(--bg-input);
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
+
+body.tema-oscuro .input-cantidad:focus,
+body.tema-oscuro .select-moneda:focus {
+  border-color: var(--violet-600);
+  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.2);
+}
+
+body.tema-oscuro .resultado {
+  background: rgba(124, 58, 237, 0.12);
+  border-color: rgba(124, 58, 237, 0.2);
+}
+
+body.tema-oscuro .btn-popular {
+  background: var(--bg-input);
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
+
+body.tema-oscuro .btn-popular:hover {
+  background: var(--violet-700);
+  color: white;
+}
+
+body.tema-oscuro .item-historial {
+  background: var(--bg-input);
+  color: var(--text-primary);
+  border-left-color: var(--violet-600);
+}
+
+body.tema-oscuro .item-historial:hover {
+  background: var(--violet-900);
+}
+
+body.tema-oscuro .historial {
+  border-color: var(--border-color);
+}
+
+body.tema-oscuro .btn-limpiar-historial {
+  background: var(--danger);
+}
+
+body.tema-oscuro .btn-limpiar-historial:hover {
+  background: #dc2626;
+}
+
+body.tema-oscuro .mensaje-vacio {
+  color: var(--text-muted);
+}
+
+body.tema-oscuro .tasa-actualizada {
+  color: var(--text-muted);
+}
+
+body.tema-oscuro .badge-historial {
+  background: var(--violet-600);
+}

@@ -1,0 +1,45 @@
+body.tema-oscuro {
+  --bg-primary: #0d0618;
+  --bg-card: #1a0a2e;
+  --bg-input: #2a1a42;
+  --text-primary: #f0edf5;
+  --text-secondary: #c8b0f0;
+  --text-muted: #8b7aaa;
+  --border-color: #2a1a42;
+}
+
+body.tema-oscuro {
+  background: linear-gradient(135deg, #0d0618 0%, #1a0a2e 50%, #0d0618 100%);
+}
+
+body.tema-oscuro .notas-container {
+  background: var(--bg-card);
+  border: 1px solid rgba(124, 58, 237, 0.15);
+}
+
+body.tema-oscuro .input-buscar {
+  background: var(--bg-input);
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
+
+body.tema-oscuro .nota-card {
+  background: var(--bg-card);
+  border-color: var(--border-color);
+}
+
+body.tema-oscuro .modal-contenido {
+  background: var(--bg-card);
+}
+
+body.tema-oscuro .filtro-btn {
+  background: var(--bg-input);
+  color: var(--text-secondary);
+  border-color: var(--border-color);
+}
+
+body.tema-oscuro .filtro-btn.activo {
+  background: var(--violet-600);
+  color: white;
+  border-color: var(--violet-600);
+}

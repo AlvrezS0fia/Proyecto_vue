@@ -1,0 +1,69 @@
+body.tema-oscuro {
+  --bg-primary: #0f0a1a;
+  --bg-secondary: #1a1228;
+  --bg-card: #1a1228;
+  --text-primary: #f0edf5;
+  --text-secondary: #c8b0f0;
+  --text-muted: #8b7aaa;
+  --border-color: #2a1f3d;
+}
+
+body.tema-oscuro {
+  background: linear-gradient(135deg, #0f0a1a 0%, #1a1228 50%, #0f0a1a 100%);
+}
+
+body.tema-oscuro .app-container {
+  background: var(--bg-card);
+  border: 1px solid rgba(124, 58, 237, 0.15);
+}
+
+body.tema-oscuro .card {
+  background: var(--bg-card);
+  border-color: var(--border-color);
+}
+
+body.tema-oscuro .card .card-front {
+  background: var(--bg-card);
+  border-color: var(--border-color);
+}
+
+body.tema-oscuro .card .card-back {
+  background: var(--bg-card);
+}
+
+body.tema-oscuro .stats {
+  background: var(--bg-card);
+  border-color: var(--border-color);
+}
+
+body.tema-oscuro .btn {
+  background: var(--bg-card);
+  border-color: var(--border-color);
+  color: var(--text-primary);
+}
+
+body.tema-oscuro .btn-primary {
+  background: var(--purple-500);
+  color: white;
+  border-color: var(--purple-500);
+}
+
+body.tema-oscuro .btn-modo {
+  background: var(--bg-card);
+  border-color: var(--border-color);
+  color: var(--text-primary);
+}
+
+body.tema-oscuro .btn-modo.activo {
+  background: var(--yellow-500);
+  color: white;
+}
+
+body.tema-oscuro .turno-activo {
+  border-color: var(--yellow-500);
+  background: rgba(245, 158, 11, 0.1);
+}
+
+body.tema-oscuro .victoria-content {
+  background: var(--bg-card);
+}

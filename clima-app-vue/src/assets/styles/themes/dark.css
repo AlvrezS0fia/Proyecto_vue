@@ -1,0 +1,112 @@
+/* ===== TEMA OSCURO ===== */
+body.tema-oscuro {
+  --bg-primary: #0f172a;
+  --bg-card: #1e293b;
+  --bg-input: #334155;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --border-color: #334155;
+}
+
+body.tema-oscuro {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+}
+
+body.tema-oscuro .clima-container {
+  background: var(--bg-card);
+  border: 1px solid rgba(59, 130, 246, 0.15);
+}
+
+body.tema-oscuro .input-buscar {
+  background: var(--bg-input);
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
+
+body.tema-oscuro .input-buscar:focus {
+  border-color: var(--blue-500);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+body.tema-oscuro .detalle-item {
+  background: var(--bg-input);
+}
+
+body.tema-oscuro .btn-tema {
+  background: var(--bg-input);
+  color: var(--text-secondary);
+}
+
+body.tema-oscuro .btn-tema:hover {
+  background: var(--blue-700);
+}
+
+body.tema-oscuro .btn-historial {
+  background: var(--bg-input);
+  color: var(--text-secondary);
+  border-color: var(--border-color);
+}
+
+body.tema-oscuro .btn-historial:hover {
+  background: var(--blue-500);
+  color: white;
+}
+
+body.tema-oscuro .historial h4 {
+  color: var(--text-muted);
+}
+
+body.tema-oscuro .mensaje-inicial .icon {
+  color: var(--blue-700);
+}
+
+body.tema-oscuro .mensaje-inicial h3 {
+  color: var(--text-secondary);
+}
+
+body.tema-oscuro .mensaje-inicial p {
+  color: var(--text-muted);
+}
+
+body.tema-oscuro .error .icon {
+  color: var(--blue-400);
+}
+
+body.tema-oscuro .footer .icon {
+  color: var(--blue-600);
+}
+
+body.tema-oscuro .clima-header h2 {
+  color: var(--text-primary);
+}
+
+body.tema-oscuro .fecha {
+  color: var(--text-muted);
+}
+
+body.tema-oscuro .temp-valor {
+  color: var(--text-primary);
+}
+
+body.tema-oscuro .temp-descripcion {
+  color: var(--text-secondary);
+}
+
+body.tema-oscuro .detalle-valor {
+  color: var(--text-primary);
+}
+
+body.tema-oscuro .detalle-label {
+  color: var(--text-muted);
+}
+
+body.tema-oscuro .btn-limpiar {
+  color: var(--text-muted);
+  border-color: var(--border-color);
+}
+
+body.tema-oscuro .btn-limpiar:hover {
+  background: var(--bg-input);
+  color: var(--blue-400);
+}

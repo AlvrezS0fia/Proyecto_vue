@@ -1,0 +1,75 @@
+/* ===== TEMA OSCURO ===== */
+body.tema-oscuro {
+  --bg-primary: #0d0618;
+  --bg-secondary: #1a0a2e;
+  --bg-card: #1a0a2e;
+  --bg-input: #2a1a42;
+  --text-primary: #f0edf5;
+  --text-secondary: #c8b0f0;
+  --text-muted: #8b7aaa;
+  --border-color: #2a1a42;
+  --shadow-color: rgba(0, 0, 0, 0.4);
+}
+
+body.tema-oscuro {
+  background: linear-gradient(135deg, #0d0618 0%, #1a0a2e 50%, #0d0618 100%);
+}
+
+body.tema-oscuro .app-container {
+  background: var(--bg-card);
+  border: 1px solid rgba(124, 58, 237, 0.15);
+}
+
+body.tema-oscuro .input-tarea {
+  background: var(--bg-input);
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
+
+body.tema-oscuro .input-tarea:focus {
+  border-color: var(--violet-600);
+  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.2);
+}
+
+body.tema-oscuro .filtros button {
+  background: var(--bg-input);
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
+
+body.tema-oscuro .filtros button.activo {
+  background: var(--violet-600);
+  color: white;
+  border-color: var(--violet-600);
+}
+
+body.tema-oscuro .tarea-item {
+  background: var(--bg-input);
+  border-color: var(--border-color);
+}
+
+body.tema-oscuro .tarea-item.completada {
+  background: rgba(34, 197, 94, 0.08);
+}
+
+body.tema-oscuro .btn-editar {
+  background: rgba(245, 158, 11, 0.2);
+  color: var(--warning);
+}
+
+body.tema-oscuro .btn-eliminar {
+  background: rgba(239, 68, 68, 0.2);
+  color: var(--danger);
+}
+
+body.tema-oscuro .barra-progreso {
+  background: var(--bg-input);
+}
+
+body.tema-oscuro .progreso {
+  background: linear-gradient(90deg, var(--violet-500), var(--violet-600));
+}
+
+body.tema-oscuro .mensaje-vacio {
+  color: var(--text-muted);
+}

@@ -1,0 +1,80 @@
+body.tema-oscuro {
+  --bg-primary: #0d0618;
+  --bg-card: #1a0a2e;
+  --bg-input: #2a1a42;
+  --text-primary: #f0edf5;
+  --text-secondary: #c8b0f0;
+  --text-muted: #8b7aaa;
+  --border-color: #2a1a42;
+  --success-bg: rgba(34, 197, 94, 0.15);
+}
+
+body.tema-oscuro {
+  background: linear-gradient(135deg, #0d0618 0%, #1a0a2e 50%, #0d0618 100%);
+}
+
+body.tema-oscuro .dashboard {
+  background: var(--bg-card);
+  border: 1px solid rgba(124, 58, 237, 0.15);
+}
+
+body.tema-oscuro .section {
+  background: var(--bg-card);
+  border-color: var(--border-color);
+}
+
+body.tema-oscuro .stat-card,
+body.tema-oscuro .task-item,
+body.tema-oscuro .habit-item,
+body.tema-oscuro .goal-item,
+body.tema-oscuro .note-item {
+  background: var(--bg-input);
+  border-color: var(--border-color);
+}
+
+body.tema-oscuro .input-task,
+body.tema-oscuro .input-habit,
+body.tema-oscuro .input-goal,
+body.tema-oscuro .input-note,
+body.tema-oscuro .input-progress,
+body.tema-oscuro .select-priority {
+  background: var(--bg-input);
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
+
+body.tema-oscuro .input-task:focus,
+body.tema-oscuro .input-habit:focus,
+body.tema-oscuro .input-goal:focus,
+body.tema-oscuro .input-note:focus,
+body.tema-oscuro .input-progress:focus {
+  border-color: var(--violet-500);
+  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.15);
+}
+
+body.tema-oscuro .config-number {
+  background: var(--bg-input);
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
+
+body.tema-oscuro .config-btn {
+  background: var(--bg-input);
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
+
+body.tema-oscuro .config-btn:hover {
+  background: var(--violet-800);
+  color: white;
+}
+
+body.tema-oscuro .pomodoro-config {
+  background: var(--bg-input);
+  border-color: var(--border-color);
+}
+
+body.tema-oscuro .alarma-modal-content {
+  background: var(--bg-card);
+  border-color: rgba(239, 68, 68, 0.3);
+}
